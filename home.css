@@ -1,0 +1,437 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(88, 88, 88) fixed;
+    background-attachment:fixed ;
+    font-family: "Poppins", Arial, sans-serif;
+    width: 99%;
+    margin: auto;
+}
+@keyframes transitionIn {
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg) ;
+    }
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    background: rgb(88, 88, 88);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.logo{
+    width: 100px;
+    margin: -30px 80px -20px ;
+}
+ul{
+    width: auto;
+    margin-top: 8px;
+}
+li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+a{
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.2vw;
+}
+a:hover{
+    color: rgb(189, 140, 16);
+    transition: 0.5;
+}
+/*first line */
+.container{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    animation: transitionIn 0.75s;
+}
+.content{
+    width: fit-content;
+    margin: auto;
+    margin-left: 150px;
+    padding: 60px 60px;
+    text-align: center;
+}
+.both{
+    margin: auto;
+    display: flex;
+}
+.png{
+    width: 750px;
+}
+.theButton{
+    background: rgb(189, 140, 16);
+    width: 100%;
+    height: fit-content;
+    padding: 1px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.theBox{
+    margin: auto;
+    width: 1180px;
+    align-items: center;
+}
+.Contact {
+    width: 250px;;
+    height: 50px;
+    color: rgb(255, 246, 246);
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: 1.7rem;
+    outline: none;
+    border: 3px solid;
+    z-index: 1;}
+.Contact:hover{
+    background-color:rgba(250, 249, 249, 0.315);
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+/*IntroLine */
+.theabout{
+    background: rgba(255, 255, 255, 0.692);
+    width: auto;
+    margin: auto;
+    height: fit-content;
+    animation: transitionIn 0.75s;
+}
+.text{
+    width: 400px;
+}
+
+.test{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+}
+.profile{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 500px;
+    margin: 20px auto;
+}
+.box{
+    background-attachment: fixed;
+    text-align: left;
+    max-width: 500px;
+    margin: 20px;
+}
+/*table*/
+table, td, th{
+    padding: 10px;
+    text-align: left;
+}
+td{
+    color: rgb(189, 140, 16);
+}
+/*icon line*/
+.icon{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
+    width: auto;
+    height: 150px;
+    padding: 10px;
+}
+.iconbox{
+    margin: 20px auto;
+    width: 1200px;
+    display: flex;
+}
+.icon .iconbox img{
+    width: 80px;
+    margin: auto;
+    border-radius: 50%;
+}
+.iconbox .text{
+    color: rgb(255, 255, 255);
+    width: fit-content;
+    margin-left: -20px;
+}
+.range{
+    height: 15em;
+    background: indianred;
+}
+/*skillLine*/
+.skill{
+    margin: auto;
+    padding: 40px;;
+    text-align: center;
+}
+.page3rd{
+    width: 100%;
+    height: auto;
+    animation: transitionIn 0.75s;
+    background-color: rgba(255, 255, 255, 0.692);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skillbox{
+    display: relative;
+    width: 900px;
+    padding: 20px 20px;
+    margin: auto;
+    color: rgb(26, 23, 23);
+    background: rgb(189, 140, 16);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.skillbox li{
+    margin: 10px ;
+    list-style-type: none;
+    
+}
+.bar{
+    background: rgb(43, 44, 44) ;
+    display: block;
+    width: 800px;
+    height: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.103);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgb(189, 140, 16);   
+}
+.bar span{
+    height: 3px;
+    float: left;
+    background: rgb(250, 250, 249);
+}
+.html{
+    width: 80%;
+}
+.css{
+    width: 95%;
+}
+.java{
+    width: 50%;
+}
+.cplusplus{
+    width: 60%;
+}
+/*gallery*/
+.gallery{
+    width: auto;
+    padding: 20px;
+    animation: transitionIn 0.75s;
+    background: rgba(255, 255, 255, 0.692);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.galhead{
+    text-align: center;
+    margin: 40px;
+    padding: -10px;
+}
+.gallbody{
+    width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: cornsilk;
+    animation: transitionIn 0.75s;
+}
+.gallbody .gallbox{
+    position: relative;
+    width: 300px;
+    Height: 300px;
+    background: rgb(189, 140, 16);
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.gallbody .gallbox .gallimgBox{
+    position: relative;
+    overflow: hidden;
+}
+.gallbody .gallbox .gallimgBox img{
+    max-width: 100%;
+    transition: transform 1s;
+}
+.gallbody .gallbox:hover .gallimgBox img{
+    transform:scale(1,1.1);
+}
+.gallbody .gallbox .details{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgba(0,0,0,0.8) ;
+    opacity: 0;
+    transition: 0.5s;
+}
+.gallbody .gallbox:hover .details{
+    opacity: 1;
+}
+.gallbody .gallbox .details .desc{
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+.gallbody .gallbox .details .desc h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: rgb(189, 140, 16);
+}
+.gallbody .gallbox .details .desc p{
+    margin: 10px 0 0;
+    padding: 0;
+    font-size: 20px;
+    color: white;
+}
+/*form section*/
+.template{
+    display: flex;
+    width: 1300px;
+    padding: 20px;
+    animation: transitionIn 0.75s;
+    margin: auto;
+}
+.text2{
+    width: 600px;
+    padding: 20px;
+    text-align: left;
+    margin: auto ;
+}
+.present{
+    padding: 20px;
+    
+}
+video{
+    width: 640px;
+    height: 480px;
+}
+/*form*/
+.secform{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px auto;
+
+}
+.last{
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    margin-right: -60px;
+}
+.form {
+    background-color:rgba(46, 45, 45, 0.685);
+    width: 90%;
+    max-width: 600px;
+    margin: -15px auto;
+    padding: 10px;
+    color: rgb(255, 255, 255);
+}
+.form .name input, .form textarea, .form .email input {
+    width: 98%;
+    padding: 5px;
+    font-size: 18px;
+    border: 3px solid rgb(189, 140, 16);
+    margin-top: 5px;
+    margin-left: 5px;
+}
+select{
+    width: 70px;
+    padding: 5px;
+    font-size: 18px;
+    border: 3px solid rgb(189, 140, 16);
+    margin-top: 30px;
+    margin-left: 7px;
+
+}
+.nophone input{
+    border: 3px solid rgb(189, 140, 16);
+    width: 510px;
+    padding: 5px;
+    font-size: 18px;
+}
+.name{
+    margin-top: 30px;
+    width: 290px;
+}
+.name .firstname{
+    position: relative;
+    top: -17px;
+}
+.name .lastname{
+    position: relative;
+    left: 300px;
+    top: -58.5px;
+}
+.email{
+    margin-top: -20px;
+}
+.message{
+    margin-top: 30px;
+}
+textarea {
+    height: 100px;
+    resize: vertical;
+}
+button[type="submit"] {
+    width: 30%;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-align: center;
+    cursor: pointer;
+    margin-top: -30px ;
+    margin-left: 412px;
+    align-items: center;
+    transition: 0.3s ease;
+    background-color: rgb(189, 140, 16);
+}
+button[type="submit"]:hover {
+    background-color: rgb(134, 134, 134);
+}
+
+/*link*/
+.link{
+    width: 500px;
+    height: fit-content;
+
+}
+.icontext{
+    margin-left: 20px;
+}
+.linkicon{
+    width: fit-content;
+}
+.linkgroup{
+    width: fit-content;
+    padding: 20px;
+    padding-left: 30px;
+    display: flex;
+}
+.linkgroup img{
+    width: 50px;
+    border-radius: 50%;
+}
+.linkgroup img:hover{
+    width: 60px;
+    transition: 0.2s;
+}
